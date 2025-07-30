@@ -54,7 +54,7 @@ const AllRooms = () => {
         {roomsDummyData.map((room, index) => (
           <div
             key={room._id}
-            className="flex flex-col md:flex-row items-start py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0"
+            className="flex flex-col md:flex-row md:items-start items-center py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0"
           >
             <img
               onClick={() => {
