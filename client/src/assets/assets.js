@@ -115,7 +115,7 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Great Stack",
+    "username": "Hriday Halder",
     "email": "user.greatstack@gmail.com",
     "image": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/bloge4A3lEt94pyEsKRxjyjIB2rVqNEdXfF-.png",
     "role": "hotelOwner",

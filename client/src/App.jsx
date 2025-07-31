@@ -32,7 +32,10 @@ const App = () => {
           </Route>
         </Routes>
       </div>
-      <Footer />
+      <div className="mt-20 md:mt-0">
+        <Footer  />
+      </div>
+      
     </div>
   );
 };

@@ -92,7 +92,7 @@ useEffect(() => {
           </a>
         ))}
         {user&& <button
-          onClick={() => navigate("/Owner")}
+          onClick={() => navigate("/owner")}
           className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer ${
             isScrolled ? "text-black" : "text-white"
           } transition-all`}
@@ -174,7 +174,7 @@ useEffect(() => {
 
         {user && (
           <button
-            onClick={() => navigate("/Owner")}
+            onClick={() => navigate("/owner")}
             className="border px-4 py-1 text-sm font-light rounded-full cursor-pointer transition-all"
           >
             Dashboard
