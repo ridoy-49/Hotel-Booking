@@ -6,7 +6,6 @@ const clerkWebhooks = async (req, res) => {
     try {
         //create svs instance
         const whook = new Webhook(process.env.CLERK_WEB_HOOKS_SECRET)
-        //getting headers
 
         const headers = {
             "svix-id": req.headers["svix-id"],
